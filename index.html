@@ -1,402 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-    <!-- SEO Meta Tags -->
-    <meta name="description" content="Your description">
-    <meta name="author" content="Your name">
-
-    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
-	<meta property="og:site_name" content="" /> <!-- website name -->
-	<meta property="og:site" content="" /> <!-- website link -->
-	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
-	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
-	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
-	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
-	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
-
-    <!-- Webpage Title -->
-    <title>Amir Vision Sdn Bhd</title>
-    
-    <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-	<link href="css/bootstrap.css" rel="stylesheet">
-    <link href="css/fontawesome-all.min.css" rel="stylesheet">
-    <link href="css/swiper.css" rel="stylesheet">
-	<link href="css/styles.css" rel="stylesheet">
-	<link href="css/magnific-popup.css" rel="stylesheet">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-	
-	<!-- Favicon  -->
-    <link rel="icon" href="image/lol.ico">
+<style>
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+</style>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbarExample">
-    
-    <!-- Navigation -->
-    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
-        <div class="container">
+<body>
 
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="../index/index.html"><img src="image/lol.svg" alt="alternative"><span class="a-heading">Amir Vision Sdn Bhd</span></a> 
-			
-            <button class="navbar-toggler" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button> 
-			 
-            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
-                <ul class="navbar-nav ms-auto navbar-nav-scroll">
-                    <li class="nav-item">
-                        <a class="nav-link" href="../index/index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../about/about.html">About Us</a>
-                    </li>
-					  <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Our Business</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="../catering/catering.html">Offshore & Onshore Catering</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="../avseafood/avseafood.html">AV Seafood Halal Industries</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="../fishery/fishery.html">Fishery Vessel</a></li>
-                        </ul>
-                    </li>
-					<li class="nav-item">
-                        <a class="nav-link" href="../contact/contact.html">Contact</a>
-                    </li>
-                </ul>
-                <span class="nav-item social-icons">
-                    <span class="fa-stack">
-                        <a href="https://www.facebook.com/u6ytyi/" target="_blank">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-facebook-f fa-stack-1x"></i>
-                        </a>
-                    </span>
-                    <span class="fa-stack">
-                        <a href="https://www.instagram.com/avseafoodhalalindustries/" target="_blank">
-                            <i class="fas fa-circle fa-stack-2x"></i>
-                            <i class="fab fa-instagram fa-stack-1x"></i>
-                        </a>
-                    </span>
-                </span>
-            </div> <!-- end of navbar-collapse -->
-        </div> <!-- end of container -->
-    </nav> <!-- end of navbar -->
-    <!-- end of navigation -->
+<h2>Cell that spans two rows</h2>
+<p>To make a cell span more than one row, use the rowspan attribute.</p>
 
-     <!-- Header -->
-    <header id="header" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-					 <div class="image-container col">
-                        <img class="img-fluid" style="border-radius:50%"src="image/avsblogo.png" alt="alternative">
-                    </div> <!-- end of image-container -->
-                        <div class="text-container">
-                            <h1><span style="color:#ECF605">WE PROVIDE</span></h1>
-							<h1><span style="color:#FFF" id="js-rotating">OFFSHORE & ONSHORE , FOOD MANUFACTURING, FISHING</span></h1>
-							<h1><span style="color:#Fff" id="js-rotating1">CATERING,(AV SEAFOOD HALAL INDUSTRIES), (FISHERY VESSEL)</span></h1>
-                            <a class="btn-solid-lg page-scroll" href="#about">DISCOVER</a>
-                        </div>
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
-	
-	<!-- About -->
-    <div id="about" class="counter bg-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-5 col-xl-6">
-                    <div class="image-container">
-                        <img class="img-fluid" src="image/avsbplace.jpeg" alt="alternative">
-                    </div> <!-- end of image-container -->
-                </div> <!-- end of col -->
-                <div class="col-lg-7 col-xl-6">
-                    <div class="text-container text-dark">
-                        <div class="section-title">ABOUT</div>
-							<p class="text-dark"><strong>AMIR VISION SDN. BHD. (AVSB)</strong> is a 100% bumiputera company that was established in April 2012.
-							Started operating in Pulau Kambing, this company has been directly involved in the field of supply
-							food and equipment to the ‘Oil and Gas’ industry for more than 7 years. In 2020,
-							AVSB has gone a step further by venturing into the food processing industry
-							by focusing on fish products and seafood. Accordingly, AVSB has moved to
-							Chendering Industrial Area, Kuala Terengganu on premises equipped with machines, facilities
-							and equipment to produce frozen products such as frozen minced, fish(otoshimi)
-							and frozen keropok lekor under 'AV Seafood' brand.</p>
-							<div class="center">
-								<a class="btn-outline-reg" href="../about/about.html">Details</a>
-							</div>
-                    </div> <!-- end of text-container -->      
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of counter -->
-    <!-- end of about -->
-	
-	
-	 <!-- Details 1 -->
-	<div id="details" class="accordion bg-blue">
-		<div class="area-1">
-		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
-            
-            <!-- Accordion -->
-            <div class="accordion-container" id="accordionOne">
-                  <div class="text-container text-white">
-                        <h2 style="color:white">Offshore & Onshore Catering</h2>
-                        <p class="text-white">We provide catering service for onshore and offshore platform crew which can be tailored to meet the specialized requirements from clients.</p>
-						<ul class="list-unstyled li-space-lg">
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Nutritional and high-quality food that has HALAL, MeSTI and GMP certificate.</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Freshly made food from kitchen.</div>
-                            </li>
-                        </ul>
-                        <a class="read-more no-line green text-dark" href="../catering/catering.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
-                    </div> <!-- end of text-container -->
-            </div> <!-- end of accordion-container -->
-            <!-- end of accordion -->
+<table>
+  
+    <tr><td rowspan="3"><b>RAM</b></td>
+      <td>4 GB</td><td>RM 600.00</td>
+    </tr>
+    <tr>
+     <td>8 GB</td>
+  <td>RM 1000.00</td>
+  
+    </tr>
+    <tr>
+    <td>16 GB</td>
+  <td>RM 1600.00</td>
+  
+    </tr>
+    <tr>
+      <td rowspan="2"><b>Processor</b></td>
+      <td>i5</td>
+  <td>RM 2000.00</td>
+  
+    </tr>
+    <tr>
+          <td>i7</td>
+        <td>RM 3000.00</td>
+    </tr>
+  </table>
 
-		</div> <!-- end of area-2 -->
-    </div> <!-- end of accordion -->
-    <!-- end of details 1 -->
-	
-	<!-- Details 2 -->
-	<div class="tabs bg-yellow">
-        <div class="area-1">
-            <div class="tabs-container">
-					 <div class="text-container text-white">
-                        <h2 style="color:white">Food Manufacturing</h2>
-						<p class="text-white">We manufacture various types of frozen minced fish & frozen fish sausage (Keropok Lekor)</p>
-                         <ul class="list-unstyled li-space-lg">
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1"> Has HALAL and MeSTI certificate.</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1"> Frozen keropok lekor is from our own produced fresh minced fish.</div>
-                            </li>
-                        </ul>
-                        <a class="read-more no-line green text-dark" href="../avseafood/avseafood.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
-                    </div> <!-- end of text-container -->
-            </div> <!-- end of tabs-container -->
-        </div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2"></div> <!-- end of area-2 -->
-    </div> <!-- end of tabs -->
-    <!-- end of details 2 -->
-	
-	 <!-- Details 1 -->
-	<div id="details" class="accordion1 bg-red">
-		<div class="area-1">
-		</div><!-- end of area-1 on same line and no space between comments to eliminate margin white space --><div class="area-2">
-            
-            <!-- Accordion -->
-            <div class="accordion-container" id="accordionOne">
-                 <div class="text-container text-white">
-                        <h2 style="color:white">Fishing</h2>
-						<p class="text-white">We have built two (2) units of modern purse seiner fishing vessel C2 zone C2 ship namely AV AL-NISAA 1 and AV AL-NISAA 2. It is equipped with high -tech equipment and provides comfortable equipment for the ship’s crew.</p>
-                        <ul class="list-unstyled li-space-lg">
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right "></i>
-                                <div class="flex-grow-1">Expected to be complete built in February 2022.</div>
-                            </li>
-                            <li class="d-flex">
-                                <i class="fas fa-chevron-right"></i>
-                                <div class="flex-grow-1">Has living accommodations consist of crew accommodations amidships, officers’ quarters on the boat deck, and the captain's quarters on the bridge, along with the wheelhouse, chartroom, gyro and radio room.</div>
-                            </li>
-                        </ul>
-						<a class="read-more no-line green text-dark" href="../fishery/fishery.html">Learn more <span class="fas fa-long-arrow-alt-right"></span></a>
-                    </div> <!-- end of text-container -->
-            </div> <!-- end of accordion-container -->
-            <!-- end of accordion -->
-
-		</div> <!-- end of area-2 -->
-    </div> <!-- end of accordion -->
-    <!-- end of details 1 -->
-	
-	 <!-- Services -->
-    <div id="services" class="cards-1">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h2 class="h2-heading">Our Joint Ventures</h2>
-                </div> <!-- end of col -->
-            </div> <!-- end of row --><br><br><br>
-            <div class="row">
-
-                    <!-- Card -->
-                    <div class="col">
-                        <div class="card-icon center">
-                            <img class="img-fluid" src="image/aims_logo.ico">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Aims Global Sdn Bhd</h4>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="col">
-                        <div class="card-icon center">
-                            <img class="img-fluid" src="image/ypu.png">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">YPU Terengganu</h4>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="col">
-                        <div class="card-icon center">
-                            <img class="img-fluid" src="image/lkim.png">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Lembaga Kemajuan Ikan Malaysia</h4>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-            </div> <!-- end of row -->
-
-            <div class="row">
-                    <!-- Card -->
-                    <div class="col">
-                        <div class="card-icon center">
-                            <img class="img-fluid" src="image/mardi.png">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Institut Penyelidikan Dan Kemajuan Pertanian</h4>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="col">
-                        <div class="card-icon center">
-                            <img class="img-fluid" src="image/midalogo.png">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Malaysian Investment Development Authority</h4>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="col">
-                        <div class="card-icon center">
-                            <img class="img-fluid" title="East Coast Economic Region" src="image/ecer.jpg">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">East Coast Economic Region</h4>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-                    <!-- Card -->
-                    <div class="col">
-                        <div class="card-icon center">
-                            <img class="img-fluid" src="image/mara.png">
-                        </div>
-                        <div class="card-body">
-                            <h4 class="card-title">Majlis Amanah Rakyat</h4>
-                        </div>
-                    </div>
-                    <!-- end of card -->
-
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of cards-1 -->
-    <!-- end of services -->
-
-
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="footer-col first">
-                        <h6>Amir Vision Sdn Bhd</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="../about/about.html" target="_blank">About Us</a></li>
-                            <li><a href="../contact/contact.html" target="_blank">Contact</a></li>
-                        </ul>
-						<h6>Core Business</h6>
-						<ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="../catering/catering.html" target="_blank">Offshore & Onshore Catering</a></li>
-                            <li><a href="../avseafood/avseafood.html" target="_blank">AV Seafood Halal Industries</a></li>
-                            <li><a href="../fishery/fishery.html" target="_blank">Fishery Vessel</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col second">
-                        <h6>Partner</h6>
-                        <ul class="list-unstyled li-space-lg p-small">
-                            <li><a href="https://www.aimsglobal.com.my/web/" target="_blank">Aims Global Sdn Bhd</a></li>
-                            <li><a href="https://www.ypu.com.my/" target="_blank">YPU Terengganu</a></li>
-                            <li><a href="https://lkim.gov.my/en/" target="_blank">Lembaga Kemajuan Ikan Malaysia</a></li>
-							<li><a href="https://www.mardi.gov.my/" target="_blank">Institut Penyelidikan Dan Kemajuan Pertanian</a></li>
-							<li><a href="https://www.mida.gov.my/" target="_blank">Malaysian Investment Development Authority</a></li>
-							<li><a href="https://www.ecerdc.com.my/" target="_blank">East Coast Economic Region</a></li>
-							<li><a href="https://www.mara.gov.my/en/index/" target="_blank">Majlis Amanah Rakyat</a></li>
-                        </ul>
-                    </div> <!-- end of footer-col -->
-                    <div class="footer-col third">
-                        <span class="fa-stack">
-                            <a href="https://www.facebook.com/u6ytyi/" target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-facebook-f fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.instagram.com/avseafoodhalalindustries/" target="_blank">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <p class="p-small">We would love to hear from you <a href="mailto:amirv@amirvision.com.my"><strong>amirv@amirvision.com.my</strong></a></p>						
-                    </div> <!-- end of footer-col -->
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
-
-
-    <!-- Copyright -->
-    <div class="copyright">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <p class="p-small"><a> © 2012-2022 Amir Vision Sdn Bhd™. All Rights Reserved.</a></p>
-                </div> <!-- end of col -->
-            </div> <!-- enf of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of copyright --> 
-    <!-- end of copyright -->
-    
-
-    <!-- Back To Top Button -->
-    <button onclick="topFunction()" id="myBtn">
-        <img src="images/up-arrow.png" alt="alternative">
-    </button>
-    <!-- end of back to top button -->
-    	
-    <!-- Scripts -->
-    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
-	<script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-	<script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-	<script src="js/isotope.pkgd.min.js"></script> <!-- Isotope for filter -->
-    <script src="js/scripts.js"></script> <!-- Custom scripts -->
-	<script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
 </body>
 </html>
